@@ -1,0 +1,163 @@
+arp_main.o: arp_main.c
+udp_main.o: udp_main.c
+icmp_main.o: icmp_main.c
+init.o: ../../../../lwip/src/core/init.c
+def.o: ../../../../lwip/src/core/def.c
+dns.o: ../../../../lwip/src/core/dns.c
+inet_chksum.o: ../../../../lwip/src/core/inet_chksum.c
+ip.o: ../../../../lwip/src/core/ip.c
+mem.o: ../../../../lwip/src/core/mem.c
+memp.o: ../../../../lwip/src/core/memp.c
+netif.o: ../../../../lwip/src/core/netif.c
+pbuf.o: ../../../../lwip/src/core/pbuf.c
+raw.o: ../../../../lwip/src/core/raw.c
+stats.o: ../../../../lwip/src/core/stats.c
+sys.o: ../../../../lwip/src/core/sys.c
+tcp.o: ../../../../lwip/src/core/tcp.c
+tcp_in.o: ../../../../lwip/src/core/tcp_in.c
+tcp_out.o: ../../../../lwip/src/core/tcp_out.c
+timeouts.o: ../../../../lwip/src/core/timeouts.c
+udp.o: ../../../../lwip/src/core/udp.c
+autoip.o: ../../../../lwip/src/core/ipv4/autoip.c
+dhcp.o: ../../../../lwip/src/core/ipv4/dhcp.c
+etharp.o: ../../../../lwip/src/core/ipv4/etharp.c
+icmp.o: ../../../../lwip/src/core/ipv4/icmp.c
+igmp.o: ../../../../lwip/src/core/ipv4/igmp.c
+ip4_frag.o: ../../../../lwip/src/core/ipv4/ip4_frag.c
+ip4.o: ../../../../lwip/src/core/ipv4/ip4.c
+ip4_addr.o: ../../../../lwip/src/core/ipv4/ip4_addr.c
+dhcp6.o: ../../../../lwip/src/core/ipv6/dhcp6.c
+ethip6.o: ../../../../lwip/src/core/ipv6/ethip6.c
+icmp6.o: ../../../../lwip/src/core/ipv6/icmp6.c
+inet6.o: ../../../../lwip/src/core/ipv6/inet6.c
+ip6.o: ../../../../lwip/src/core/ipv6/ip6.c
+ip6_addr.o: ../../../../lwip/src/core/ipv6/ip6_addr.c
+ip6_frag.o: ../../../../lwip/src/core/ipv6/ip6_frag.c
+mld6.o: ../../../../lwip/src/core/ipv6/mld6.c
+nd6.o: ../../../../lwip/src/core/ipv6/nd6.c
+api_lib.o: ../../../../lwip/src/api/api_lib.c
+api_msg.o: ../../../../lwip/src/api/api_msg.c
+err.o: ../../../../lwip/src/api/err.c
+netbuf.o: ../../../../lwip/src/api/netbuf.c
+netdb.o: ../../../../lwip/src/api/netdb.c
+netifapi.o: ../../../../lwip/src/api/netifapi.c
+sockets.o: ../../../../lwip/src/api/sockets.c
+tcpip.o: ../../../../lwip/src/api/tcpip.c
+ethernet.o: ../../../../lwip/src/netif/ethernet.c
+slipif.o: ../../../../lwip/src/netif/slipif.c
+auth.o: ../../../../lwip/src/netif/ppp/auth.c
+ccp.o: ../../../../lwip/src/netif/ppp/ccp.c
+chap-md5.o: ../../../../lwip/src/netif/ppp/chap-md5.c
+chap_ms.o: ../../../../lwip/src/netif/ppp/chap_ms.c
+chap-new.o: ../../../../lwip/src/netif/ppp/chap-new.c
+demand.o: ../../../../lwip/src/netif/ppp/demand.c
+eap.o: ../../../../lwip/src/netif/ppp/eap.c
+ecp.o: ../../../../lwip/src/netif/ppp/ecp.c
+eui64.o: ../../../../lwip/src/netif/ppp/eui64.c
+fsm.o: ../../../../lwip/src/netif/ppp/fsm.c
+ipcp.o: ../../../../lwip/src/netif/ppp/ipcp.c
+ipv6cp.o: ../../../../lwip/src/netif/ppp/ipv6cp.c
+lcp.o: ../../../../lwip/src/netif/ppp/lcp.c
+magic.o: ../../../../lwip/src/netif/ppp/magic.c
+mppe.o: ../../../../lwip/src/netif/ppp/mppe.c
+multilink.o: ../../../../lwip/src/netif/ppp/multilink.c
+ppp.o: ../../../../lwip/src/netif/ppp/ppp.c
+pppapi.o: ../../../../lwip/src/netif/ppp/pppapi.c
+pppcrypt.o: ../../../../lwip/src/netif/ppp/pppcrypt.c
+pppoe.o: ../../../../lwip/src/netif/ppp/pppoe.c
+pppol2tp.o: ../../../../lwip/src/netif/ppp/pppol2tp.c
+pppos.o: ../../../../lwip/src/netif/ppp/pppos.c
+upap.o: ../../../../lwip/src/netif/ppp/upap.c
+utils.o: ../../../../lwip/src/netif/ppp/utils.c
+vj.o: ../../../../lwip/src/netif/ppp/vj.c
+arc4.o: ../../../../lwip/src/netif/ppp/polarssl/arc4.c
+des.o: ../../../../lwip/src/netif/ppp/polarssl/des.c
+md4.o: ../../../../lwip/src/netif/ppp/polarssl/md4.c
+md5.o: ../../../../lwip/src/netif/ppp/polarssl/md5.c
+sha1.o: ../../../../lwip/src/netif/ppp/polarssl/sha1.c
+lowpan6.o: ../../../../lwip/src/netif/lowpan6.c
+perf.o: ../../../ports/unix/port/perf.c
+sys_arch.o: ../../../ports/unix/port/sys_arch.c
+tapif.o: ../../../ports/unix/port/netif/tapif.c
+tunif.o: ../../../ports/unix/port/netif/tunif.c
+unixif.o: ../../../ports/unix/port/netif/unixif.c
+list.o: ../../../ports/unix/port/netif/list.c
+tcpdump.o: ../../../ports/unix/port/netif/tcpdump.c
+delif.o: ../../../ports/unix/port/netif/delif.c
+sio.o: ../../../ports/unix/port/netif/sio.c
+fifo.o: ../../../ports/unix/port/netif/fifo.c
+chargen.o: ../../../apps/chargen/chargen.c \
+ ../../../apps/chargen/chargen.h
+udpecho.o: ../../../apps/udpecho/udpecho.c \
+ ../../../apps/udpecho/udpecho.h
+tcpecho.o: ../../../apps/tcpecho/tcpecho.c \
+ ../../../apps/tcpecho/tcpecho.h
+shell.o: ../../../apps/shell/shell.c ../../../apps/shell/shell.h
+udpecho_raw.o: ../../../apps/udpecho_raw/udpecho_raw.c \
+ ../../../apps/udpecho_raw/udpecho_raw.h
+tcpecho_raw.o: ../../../apps/tcpecho_raw/tcpecho_raw.c \
+ ../../../apps/tcpecho_raw/tcpecho_raw.h
+netio.o: ../../../apps/netio/netio.c ../../../apps/netio/netio.h
+ping.o: ../../../apps/ping/ping.c ../../../apps/ping/ping.h
+lwip_prvmib.o: ../../../apps/snmp_private_mib/lwip_prvmib.c \
+ ../../../apps/snmp_private_mib/private_mib.h
+smtp.o: ../../../apps/smtp/smtp.c ../../../apps/smtp/smtp.h
+socket_examples.o: ../../../apps/socket_examples/socket_examples.c \
+ ../../../apps/socket_examples/socket_examples.h
+rtp.o: ../../../apps/rtp/rtp.c
+tcp_isn.o: ../../../addons/tcp_isn/tcp_isn.c \
+ ../../../addons/tcp_isn/tcp_isn.h
+snmp_asn1.o: ../../../../lwip/src/apps/snmp/snmp_asn1.c \
+ ../../../../lwip/src/apps/snmp/snmp_asn1.h \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h
+snmp_core.o: ../../../../lwip/src/apps/snmp/snmp_core.c \
+ ../../../../lwip/src/apps/snmp/snmp_core_priv.h \
+ ../../../../lwip/src/apps/snmp/snmp_asn1.h \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h
+snmp_mib2.o: ../../../../lwip/src/apps/snmp/snmp_mib2.c
+snmp_mib2_icmp.o: ../../../../lwip/src/apps/snmp/snmp_mib2_icmp.c
+snmp_mib2_interfaces.o: \
+ ../../../../lwip/src/apps/snmp/snmp_mib2_interfaces.c
+snmp_mib2_ip.o: ../../../../lwip/src/apps/snmp/snmp_mib2_ip.c
+snmp_mib2_snmp.o: ../../../../lwip/src/apps/snmp/snmp_mib2_snmp.c
+snmp_mib2_system.o: ../../../../lwip/src/apps/snmp/snmp_mib2_system.c
+snmp_mib2_tcp.o: ../../../../lwip/src/apps/snmp/snmp_mib2_tcp.c
+snmp_mib2_udp.o: ../../../../lwip/src/apps/snmp/snmp_mib2_udp.c
+snmp_msg.o: ../../../../lwip/src/apps/snmp/snmp_msg.c \
+ ../../../../lwip/src/apps/snmp/snmp_msg.h \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h \
+ ../../../../lwip/src/apps/snmp/snmp_asn1.h \
+ ../../../../lwip/src/apps/snmp/snmp_core_priv.h
+snmpv3.o: ../../../../lwip/src/apps/snmp/snmpv3.c \
+ ../../../../lwip/src/apps/snmp/snmpv3_priv.h
+snmp_netconn.o: ../../../../lwip/src/apps/snmp/snmp_netconn.c
+snmp_pbuf_stream.o: ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.c \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h
+snmp_raw.o: ../../../../lwip/src/apps/snmp/snmp_raw.c \
+ ../../../../lwip/src/apps/snmp/snmp_msg.h \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h
+snmp_scalar.o: ../../../../lwip/src/apps/snmp/snmp_scalar.c
+snmp_table.o: ../../../../lwip/src/apps/snmp/snmp_table.c
+snmp_threadsync.o: ../../../../lwip/src/apps/snmp/snmp_threadsync.c
+snmp_traps.o: ../../../../lwip/src/apps/snmp/snmp_traps.c \
+ ../../../../lwip/src/apps/snmp/snmp_msg.h \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h \
+ ../../../../lwip/src/apps/snmp/snmp_asn1.h \
+ ../../../../lwip/src/apps/snmp/snmp_core_priv.h
+snmpv3_mbedtls.o: ../../../../lwip/src/apps/snmp/snmpv3_mbedtls.c \
+ ../../../../lwip/src/apps/snmp/snmpv3_priv.h \
+ ../../../../lwip/src/apps/snmp/snmp_msg.h \
+ ../../../../lwip/src/apps/snmp/snmp_pbuf_stream.h
+snmpv3_dummy.o: ../../../../lwip/src/apps/snmp/snmpv3_dummy.c \
+ ../../../../lwip/src/apps/snmp/snmpv3_priv.h
+fs.o: ../../../../lwip/src/apps/httpd/fs.c \
+ ../../../../lwip/src/apps/httpd/fsdata.h \
+ ../../../../lwip/src/apps/httpd/fsdata.c
+httpd.o: ../../../../lwip/src/apps/httpd/httpd.c \
+ ../../../../lwip/src/apps/httpd/httpd_structs.h
+lwiperf.o: ../../../../lwip/src/apps/lwiperf/lwiperf.c
+sntp.o: ../../../../lwip/src/apps/sntp/sntp.c
+mdns.o: ../../../../lwip/src/apps/mdns/mdns.c
+netbiosns.o: ../../../../lwip/src/apps/netbiosns/netbiosns.c
+tftp_server.o: ../../../../lwip/src/apps/tftp/tftp_server.c
+mqtt.o: ../../../../lwip/src/apps/mqtt/mqtt.c
